@@ -11,12 +11,14 @@ $ npm i -g knex
 $ yarn add knex pg
 $ knex init
 ```
-
+.env = DBUSER:DBPASS@DBHOST:DBPORT/DBNAME
 server/knexfile.js :
-development:{connection: 'postgres://localhost/lemon'}
+development:{ 
+  connection: 'postgres://username:password@localhost:5432/DBNAME'
+}
 
 ```
-$ knex migrate:make lime (tbl) 
+$ knex migrate:make lime (generate schema file for table 'lime') // not yet migrated to db
 ```
 
 server/migrations/lime.js
