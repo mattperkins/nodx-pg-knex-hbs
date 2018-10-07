@@ -1,12 +1,10 @@
+require('dotenv').config()
+
 module.exports = {
 
   development: {
     client: 'postgresql',
-    connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
-    } 
-   }
+    connection: 'postgres://DBUSER:DBPASS@DBHOST:DBPORT/DBNAME'
+  }
 
 };
