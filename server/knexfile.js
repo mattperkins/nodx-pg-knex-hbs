@@ -11,6 +11,10 @@ module.exports = {
         database: process.env.DB_NAME,
         port: process.env.DB_PORT
       } 
+  },
+  production: {
+    client: 'postgresql',
+    connection: process.env.DB_HOST + '?ssl=true'  
   }
 
 };

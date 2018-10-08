@@ -15,7 +15,14 @@ exports.seed = function(knex, Promise) {
         priority: 2,
         description: 'Many rivers to cross...',
         date: new Date()
+      },
+      {
+        title: 'Title Three',
+        priority: 3,
+        description: 'To be or not to be',
+        date: new Date()
       }
+
 
     ]
       return knex('users').insert(users);
