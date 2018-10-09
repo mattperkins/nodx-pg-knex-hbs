@@ -3,7 +3,7 @@ var router = express.Router();
 
 const knex = require('../db/knex') // connection to db/config
 /* GET users. */
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
   // res.render('users', { title: 'Users' });
   knex('users') // connect to db tbl
   .select() // select all rows in tbs
