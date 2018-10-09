@@ -1,0 +1,36 @@
+/* h1, input, button */
+:root{
+ --btn-primary: #a1d9f0; 
+ --blue: cornflowerblue;
+ --white: #f7f7f7;
+}
+h1{
+ font-weight: 100;
+ font-size: 5.2rem;
+ margin-bottom: -30px;
+}
+input {
+ margin-right: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ box-shadow: none;
+}
+button{
+ background-color: var(--blue);
+ color: var(--white)
+}
+input, button{
+ font-size: 1.4rem;
+ letter-spacing: 1px;
+ border: 1px solid var(--blue);
+ outline: 0;
+ border-radius: 6px;
+ height: 60px;
+ width: 220px
+}
+li{
+ list-style-type: none;
+ padding: 20px;
+ border: 1px solid #ccc;
+ display: inline-block;
+}
