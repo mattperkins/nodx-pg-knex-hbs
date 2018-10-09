@@ -79,7 +79,7 @@ select * from lime;
 ```
 
 ```
-$ cp server/routes/index.js lime.js
+server/routes/index.js lime.js
 ```
 
 server/routes/lime.js
