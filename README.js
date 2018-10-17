@@ -3,7 +3,8 @@
 * express.js for routes rendering
 * handlebars.js for server-side view templates
 * bstrap for UI
-
+* react from client view
+ 
 ```
 $ express --hbs
 $ createdb lemon (db)
@@ -155,4 +156,5 @@ add classes to taste
 
 server/public/stylesheets/style.css
 add classes to taste
+
 
