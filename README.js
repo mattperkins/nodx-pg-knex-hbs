@@ -1,9 +1,14 @@
+## start postgres server
+## cd server/ yarn start
+## cd client/ yarn start
+
+
 * postgres for db
 * knex.js for migrations, seeds and queries
 * express.js for routes rendering
 * handlebars.js for server-side view templates
 * bstrap for UI
-* react from client view
+* react for client view
  
 ```
 $ express --hbs
