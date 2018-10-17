@@ -2,7 +2,7 @@
 ## cd server/ yarn start
 ## cd client/ yarn start
 
-
+### ------------------------------------------
 * postgres for db
 * knex.js for migrations, seeds and queries
 * express.js for routes rendering
