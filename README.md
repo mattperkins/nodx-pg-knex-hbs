@@ -1,3 +1,5 @@
+#### >> refer to notes.js 
+
 # INSTALL 
 ## yarn 
 
