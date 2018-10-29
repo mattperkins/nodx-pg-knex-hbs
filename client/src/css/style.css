@@ -4,6 +4,9 @@
  --blue: cornflowerblue;
  --white: #f7f7f7;
 }
+body{
+    background-color: var(--white);
+}
 h1{
  font-weight: 100;
  font-size: 5.2rem;
