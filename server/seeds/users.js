@@ -1,30 +1,27 @@
-
-exports.seed = function (knex, Promise) {
-  return knex('users').del()
-    .then(function () {
+exports.seed = function(knex, Promise) {
+  return knex("users")
+    .del()
+    .then(function() {
       const users = [
-
         {
-          title: 'Title One',
+          title: "Title One",
           priority: 1,
-          description: 'I wandered lonely as a cloud.',
+          description: "I wandered lonely as a cloud.",
           date: new Date()
         },
         {
-          title: 'Title Two',
+          title: "Title Two",
           priority: 2,
-          description: 'Many rivers to cross...',
+          description: "Many rivers to cross...",
           date: new Date()
         },
         {
-          title: 'Title Three',
+          title: "Title Three",
           priority: 3,
-          description: 'To be or not to be.',
+          description: "To be or not to be.",
           date: new Date()
         }
-
-
-      ]
-      return knex('users').insert(users);
+      ];
+      return knex("users").insert(users);
     });
 };
