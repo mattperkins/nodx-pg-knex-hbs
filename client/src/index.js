@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactDOM from 'react-dom'
+import { render } from 'react-dom'
 import registerServiceWorker from './registerServiceWorker'
 // Modest Grid linked via public/index.html
 import './css/reset.css'
@@ -39,6 +39,6 @@ render() {
 }// end render
 }// end component
 
-ReactDOM.render(<Root />, 
+render(<Root />, 
   document.getElementById('root'))
   registerServiceWorker()
